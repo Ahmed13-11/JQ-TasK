@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.textcontain {
+    background-image: url(../img/party.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.counter {
+    background-image: url(../img/12.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#box {
+    border: 2px solid white;
+}
+
+.box .song, .songDetail {
+    border: 2px solid black;
+    padding: 5px;
+}
+.secTwo .box .songDetail {
+    display: none;
+}
+
+.headSec .blackdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    left: -200px;
+    height: 100vh;
+    position: fixed;
+    background-color: black;
+}
+.blackdiv i{
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    cursor: pointer;
+}
+
+.blackdivcontain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+}
+.blackdivcontain a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.blackdivcontain a:hover {
+    color: red;
+}
+.open{
+    position: absolute;
+    top:50vh;
+    left:10px;
+    cursor: pointer;
+}
+#toggle span{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 0;
+}
+ul i{
+    padding-right: 20px;
+}
